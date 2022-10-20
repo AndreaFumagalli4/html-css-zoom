@@ -7,4 +7,46 @@
 
 body{
     font-family: 'roboto', sans-serif;
+    background-color: black;
+    color: white;
 }
+
+.flex{
+    display: flex;
+}
+
+.p.relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+section.buttons{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section.buttons span{
+    background-color: #4a4a4a;
+    margin: .5rem .5rem 0 0;
+}
+
+section.container div.card{
+    height: 120px;
+    width: 170px;
+    background-color: red;
+    margin-right: .3rem;
+}
+
+main section.container{
+    margin: 2rem;
+}
+
+div.card span{
+    background-color: #67707b;
+}
+
