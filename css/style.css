@@ -25,26 +25,29 @@ body{
     left: 0;
 }
 
-main{
+/* main{
     height: 90vh;
     overflow: scroll;
-}
+} */
 
 section.buttons{
     justify-content: flex-end;
     align-items: center;
 }
 
-section.buttons span{
+section.buttons span.badge{
     background-color: #4a4a4a;
-    margin: .5rem .5rem 0 0;
+    margin: .5rem .3rem 0 0;
+    padding: .2rem;
+    border-radius: .3rem;
+    font-size: .6rem;
 }
 
 section.container div.card{
     height: 120px;
     width: 170px;
     background-color: red;
-    margin: 0 .5rem 1rem 0;
+    margin: 0 .5rem .75rem 0;
 }
 
 main section.container{
@@ -53,8 +56,10 @@ main section.container{
     margin: 2rem;
 }
 
-div.card span{
-    background-color: #67707b;
+div.card span.name{
+    background-color: rgba(211, 211, 211, 0.5);
+    font-size: .7rem;
+    padding: .2rem;
 }
 
 
