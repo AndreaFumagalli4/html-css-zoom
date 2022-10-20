@@ -39,14 +39,19 @@ section.container div.card{
     height: 120px;
     width: 170px;
     background-color: red;
-    margin-right: .3rem;
+    margin: 0 .5rem 1rem 0;
 }
 
 main section.container{
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 2rem;
 }
 
 div.card span{
     background-color: #67707b;
 }
+
+
+
 
