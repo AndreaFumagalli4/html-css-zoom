@@ -28,8 +28,6 @@ body{
 
 main{
     background-color: black;
-    /* height: 90vh;
-    overflow: scroll; */
 }
 
 section.buttons{
@@ -80,11 +78,12 @@ nav.interactive-button{
     margin: 0 .5rem;
 }
 
+nav.flex ul.list,
 nav.flex div.list{
     height: 70px;    
 }
 
-div.list ul li{
+ul.list li{
     display: inline-block;
     padding: .5rem;
     text-align: center;
@@ -97,16 +96,19 @@ li span.description{
     padding-top: .2rem;
 }
 
-div.list li.hat{
+ul.list li.hat{
     font-size: .8rem;
 }
 
-nav.flex div.end-call{
+nav.flex div#end-call{
     background-color: #4a4a4a;
     color: red;
+    padding: 1.85rem 1rem;
 }
 
-div span#end-meeting{}
+li i#green-arrow{
+    color: lightgreen;
+}
 
 
 
