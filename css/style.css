@@ -46,7 +46,10 @@ section.buttons span.badge{
 section.container div.card{
     height: 120px;
     width: 170px;
-    background-color: red;
+    background-image: url("https://picsum.photos/200/300");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 .5rem .75rem 0;
 }
 
