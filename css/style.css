@@ -26,7 +26,8 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 90vh;
+    overflow: scroll;
 }
 
 section.buttons{
