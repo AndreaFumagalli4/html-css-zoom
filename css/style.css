@@ -25,6 +25,10 @@ body{
     left: 0;
 }
 
+main{
+    height: 100vh;
+}
+
 section.buttons{
     justify-content: flex-end;
     align-items: center;
