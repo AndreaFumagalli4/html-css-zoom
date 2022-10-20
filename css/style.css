@@ -7,7 +7,6 @@
 
 body{
     font-family: 'roboto', sans-serif;
-    background-color: black;
     color: white;
 }
 
@@ -25,14 +24,18 @@ body{
     left: 0;
 }
 
-/* main{
-    height: 90vh;
-    overflow: scroll;
-} */
+/* css MAIN */
+
+main{
+    background-color: black;
+    /* height: 90vh;
+    overflow: scroll; */
+}
 
 section.buttons{
     justify-content: flex-end;
     align-items: center;
+    height: 5vh;
 }
 
 section.buttons span.badge{
@@ -56,7 +59,7 @@ section.container div.card{
 main section.container{
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 2rem 2rem 0;
 }
 
 div.card span.name{
@@ -64,6 +67,47 @@ div.card span.name{
     font-size: .7rem;
     padding: .2rem;
 }
+
+/* css FOOTER */
+
+footer{
+    background-color: #222222;
+}
+
+nav.interactive-button{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .5rem;
+}
+
+nav.flex div.list{
+    height: 70px;    
+}
+
+div.list ul li{
+    display: inline-block;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+li span.description{
+    display: block;
+    font-size: .5rem;
+    padding-top: .2rem;
+}
+
+div.list li.hat{
+    font-size: .8rem;
+}
+
+nav.flex div.end-call{
+    background-color: #4a4a4a;
+    color: red;
+}
+
+div span#end-meeting{}
+
 
 
 
